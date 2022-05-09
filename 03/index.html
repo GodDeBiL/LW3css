@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03</title>
+    <style>
+        .button {
+            background-color: aqua;
+            font-size:large;
+            padding: 20px 50px;
+            border: 10px solid rgb(0, 122, 133);
+            box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+        }
+        .button:not(:last-child){
+            margin: 30px;
+        }
+        .button:hover {
+            cursor:wait;
+            background-color: red;
+            border: 10px solid brown;
+            box-shadow: none;
+            transform: translateY(25px);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="button"> Натисни </button>
+        <button class="button"> Про нас </button>
+        <button class="button"> Більше інфо </button>
+        <button class="button"> Про нас </button>
+    </div>
+</body>
+</html> 
